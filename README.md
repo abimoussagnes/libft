@@ -1,11 +1,3 @@
-# libft_project
-
-This directory is a workspace copy of the `libft` implementations used for learning and small tests.
-
-This README explains how the project is organized, how to build individual tests, and useful next steps.
-
----
-
 ## Overview
 
 `libft_project` contains small, standalone implementations of common C standard library functions (prefixed with `ft_`) for learning and reuse in other projects. Each source file may include a minimal `main()` that exercises the function for quick manual testing.
