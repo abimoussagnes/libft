@@ -6,7 +6,7 @@
 #    By: aabi-mou <aabi-mou@student.42beirut.com    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/11/11 16:15:17 by aabi-mou          #+#    #+#              #
-#    Updated: 2025/11/11 16:15:20 by aabi-mou         ###   ########.fr        #
+#    Updated: 2025/11/11 16:55:31 by aabi-mou         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -40,8 +40,8 @@ $(NAME): $(OBJ)
 	$(AR) $(NAME) $(OBJ)
 
 # Bonus rule
-bonus: $(OBJ) $(OBJ_BONUS)
-	$(AR) $(NAME) $(OBJ) $(OBJ_BONUS)
+bonus:  $(OBJ_BONUS)
+	$(AR) $(NAME) $(OBJ_BONUS)
 
 # Compile .c to .o
 %.o: %.c
